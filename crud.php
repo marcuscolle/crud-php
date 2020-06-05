@@ -74,45 +74,6 @@ if(isset($_POST['update'])){
 
 	header('location: index.php');
 }
-
-
- /*
-
-
-	$result = $mysqli->prepare("UPDATE test SET user = :USER, location = :LOCATION WHERE id = :ID");
-
-	$result->bindParam(":USER", $name);
-	$result->bindParam(":LOCATION", $location);
-	$result->bindParam(":ID", $id);
-
-	$result->execute();
-
-
-
-
- // connection com mysql neste caso workbench
-$conn = new PDO("mysql:dbname=dbphp7; host=localhost", "root", "");
-
-$stmt = $conn->prepare("UPDATE tb_usuarios SET deslogin = :LOGIN, dessenha = :PASSWORD WHERE idusuario = :ID"); 
-
-$login = "ze";
-$password = "1256";
-$id = 4;
-
-$stmt->bindParam(":LOGIN", $login);
-$stmt->bindParam(":PASSWORD", $password);
-$stmt->bindParam(":ID", $id);
-
-$stmt->execute();
-
-echo "data Alterada";
-
-
-*/
-
-
-
-
  ?>
 
 
